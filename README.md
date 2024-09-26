@@ -8,7 +8,7 @@ This is a platform for creating and sharing resumes.
 - Electron27
 - node21
 - webpack5
-- sass
+- sass module
 - eslint
 - prettier
 
