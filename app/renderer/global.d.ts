@@ -1,6 +1,6 @@
 /**
  * @author: Kk86
- * @description: 定义模型类型 
+ * @description: 定义文件类型 
  */
 
 declare module '*.scss' {

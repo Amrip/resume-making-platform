@@ -5,20 +5,9 @@
 
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Title from './title';
-
+import Router from './router'
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
-  );
-}
-function Home() {
-  return <Title text={'你好 title'} styles={{ color: 'red' }} />;
+  return <Router />
 }
 const container = document.getElementById('root');
 const root = createRoot(container as any);
