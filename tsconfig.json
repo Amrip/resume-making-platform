@@ -15,7 +15,8 @@
     "baseUrl": "./",
     "paths": {
       "@app/*": ["./app/renderer/*"],
-      "@assets/*":["/assets/*"]
+      "@assets/*":["./assets/*"],
+      "@common/*": ["./app/renderer/common/*"]
     },
     "moduleResolution": "node"
   },
