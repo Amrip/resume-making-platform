@@ -9,7 +9,8 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
     alias: {
-      '@': path.join(__dirname, '../app/renderer'),
+      '@app': path.join(__dirname, '../app/renderer'),
+      '@assets': path.join(__dirname, 'assets')
     },
   },
   module: {
