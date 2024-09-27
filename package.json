@@ -12,11 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@reduxjs/toolkit": "^2.2.7",
     "electron": "^27.3.1",
     "react": "^18.0.2",
     "react-dom": "^18.0.2",
+    "react-redux": "^9.1.2",
     "react-router": "^6.0.1",
-    "react-router-dom": "^6.0.1"
+    "react-router-dom": "^6.0.1",
+    "redux": "^5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.25.6",
@@ -48,6 +51,8 @@
     "postcss-loader": "^8.1.1",
     "postcss-scss": "^4.0.9",
     "prettier": "^2.3.0",
+    "rc-redux-model": "^1.1.10",
+    "redux-logger": "^3.0.6",
     "sass": "^1.55.3",
     "sass-loader": "^12.0.2",
     "style-loader": "^4.0.0",

@@ -5,9 +5,15 @@
 
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import Router from './router'
+import Router from './router';
+import { Provider } from 'react-redux';
+import store from './store';
 function App() {
-  return <Router />
+  return (
+    <Provider store={store}>
+      <Router />
+    </Provider>
+  );
 }
 const container = document.getElementById('root');
 const root = createRoot(container as any);
